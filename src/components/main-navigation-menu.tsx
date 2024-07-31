@@ -21,7 +21,7 @@ const examples = navMenuConfig.examplesNav[0];
 export function MainNavigationMenu() {
   return (
     <NavigationMenu>
-      <NavigationMenuList>
+      <NavigationMenuList className="flex flex-row-reverse">
         {/* <NavigationMenuItem>
           <NavigationMenuTrigger>{pages.title}</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -52,7 +52,7 @@ export function MainNavigationMenu() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>{pages.title}</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[400px] gap-3 rtl p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {pages.items?.map((page) => (
                 <ListItem key={page.title} {...page} />
               ))}
@@ -60,16 +60,7 @@ export function MainNavigationMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>{examples.title}</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {examples.items?.map((example) => (
-                <ListItem key={example.title} {...example} />
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
+
 
         {links ? (
           <NavigationMenuItem>
@@ -134,9 +125,7 @@ const ListItem: React.FC<MenuItem> = ({
             </Badge>
           ) : null}
         </div>
-        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-          {description}
-        </p>
+
       </a>
     </li>
   );

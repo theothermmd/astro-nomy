@@ -12,12 +12,12 @@ const segment = extractSegmentURL(Astro.url.pathname);
 
 {
   items?.length ? (
-    <nav class="hidden gap-6 md:flex">
+    <nav class="hidden gap-6 md:flex ">
       {items?.map((item) => (
         <a
           href={item.disabled ? "#" : item.href}
           class={cn(
-            "flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm",
+            "flex flex-row-reverse items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm",
             item.href.startsWith(`/${segment}`)
               ? "text-foreground"
               : "text-foreground/60",

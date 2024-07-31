@@ -58,35 +58,41 @@ export const features = [
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
     link: "/",
+    img: "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
   {
     title: "Feature 2",
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
     link: "/",
+    img: "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
   {
     title: "Feature 3",
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
     link: "/",
+    img: "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
   {
     title: "Feature 4",
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
     link: "/",
+    img: "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
   {
     title: "Feature 5",
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+    img : "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
   {
     title: "Feature 6",
     description:
       "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
     link: "/",
+    img: "https://static.javatpoint.com/blog/images/what-is-a-webpage.png"
   },
 ];
 

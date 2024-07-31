@@ -5,17 +5,17 @@ import HeroLanding from "@/components/sections/hero-landing.astro";
 import InfoLanding from "@/components/sections/info-landing.astro";
 import PreviewLanding from "@/components/sections/preview-landing.astro";
 import Testimonials from "@/components/sections/testimonials.astro";
-
+import Pricing from "./pricing.astro";
 import { infos } from "@/config/landing";
 import MainLayout from "@/layouts/main-layout.astro";
 ---
 
 <MainLayout title="Landing">
   <HeroLanding />
-  <PreviewLanding />
   <BentoGrid />
-  <InfoLanding data={infos[0]} reverse={true} />
+
   <!-- <InfoLanding data={infos[1]} /> -->
   <Features />
-  <Testimonials />
+  <Pricing name="Starter" price="5 میلیون تومان" />
+  <Pricing name="Pro" price="9 میلیون تومان" />
 </MainLayout>

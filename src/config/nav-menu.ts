@@ -3,22 +3,22 @@ import type { NavMenuConfig } from "@/types";
 export const navMenuConfig: NavMenuConfig = {
   pagesNav: [
     {
-      title: "Pages",
+      title: "طراحی سایت",
       items: [
         {
-          title: "Landing",
+          title: "وب سایت فروشگاهی",
           href: "/landing",
           description: "A landing page template with differents sections.",
           image: "/images/examples/landing.jpg",
         },
         {
-          title: "Changelog",
+          title: "وب سایت وبلاگی",
           href: "/releases",
           description: "A reproduction of Starlog template with Tailwind CSS.",
           image: "/images/examples/changelog.jpg",
         },
         {
-          title: "Waitlist",
+          title: "وب سایت شرکتی",
           href: "/waitlist",
           description:
             "A waitlist form using Astro DB, React Hook Form & Sonner. Static page.",
@@ -26,19 +26,19 @@ export const navMenuConfig: NavMenuConfig = {
           forceReload: true,
         },
         {
-          title: "Pricing",
+          title: "وب سایت آموزشی",
           href: "/pricing",
           description: "Pricing cards, FAQs and more content with price.",
           image: "/images/examples/pricing.jpg",
         },
         {
-          title: "About",
+          title: "وب سایت شخصی",
           href: "/about",
           description: "A simple page with a masonry gallery and little text.",
           image: "/images/examples/about.jpg",
         },
         {
-          title: "Newsletter",
+          title: "وب سایت آگهی",
           href: "/newsletter",
           description:
             "A newsletter form using Astro DB & Simple Stack Form. Counter display!",
@@ -97,7 +97,28 @@ export const navMenuConfig: NavMenuConfig = {
       ],
     },
   ],
+  
   links: [
+    {
+      title: "درباره ما",
+      href: "/docs",
+      description: "Documentation",
+      image: "/images/examples/documentation.jpg",
+    },
+    
+  {
+    title: "ارتباط با ما",
+    href: "/docs",
+    description: "Documentation",
+    image: "/images/examples/documentation.jpg",
+  },
+  {
+    title: "تبلیغات",
+    href: "/docs",
+    description: "Documentation",
+    image: "/images/examples/documentation.jpg",
+  },
+
     // {
     //   title: "Example",
     //   href: "/example",
